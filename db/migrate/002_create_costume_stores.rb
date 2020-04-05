@@ -8,6 +8,7 @@ class CreateCostumeStores < ActiveRecord::Migration[5.2]
       :number_of_employees
       :in_business
       :opening_time
+      :closing_time
     end
   end
 end
